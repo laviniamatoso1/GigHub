@@ -7,8 +7,10 @@ namespace GigHub.Models
     {
         public int Id { get; set; }
 
-        [Required]
         public ApplicationUser Artista { get; set; }
+
+        [Required]
+        public string ArtistaID { get; set; }
 
         public DateTime Data { get; set; }
 
@@ -16,8 +18,10 @@ namespace GigHub.Models
         [StringLength(255)]
         public string Local { get; set; }
 
+        public Genre Genre { get; set; }
+
         [Required]
-        public Genre genero { get; set; }
+        public byte GenreID { get; set; }
     }
 
 

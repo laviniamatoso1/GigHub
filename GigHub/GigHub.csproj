@@ -217,6 +217,10 @@
     <Compile Include="Migrations\201809281652163_PopulandoGenres.Designer.cs">
       <DependentUpon>201809281652163_PopulandoGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810161218204_AdicionandoChaveEstrangeiraEmGig.cs" />
+    <Compile Include="Migrations\201810161218204_AdicionandoChaveEstrangeiraEmGig.Designer.cs">
+      <DependentUpon>201810161218204_AdicionandoChaveEstrangeiraEmGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -317,6 +321,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809281652163_PopulandoGenres.resx">
       <DependentUpon>201809281652163_PopulandoGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810161218204_AdicionandoChaveEstrangeiraEmGig.resx">
+      <DependentUpon>201810161218204_AdicionandoChaveEstrangeiraEmGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
