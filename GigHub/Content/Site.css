@@ -28,6 +28,7 @@ span.fiel-validation-error{
     font-weight:bold;
 }
 
+
 /* Bootstrap Overrides */
 .navbar-inverse{
     background-color: #ff4342;
@@ -53,6 +54,11 @@ span.fiel-validation-error{
 .dropdown-menu{
     box-shadow:none;
     -webkit-box-shadow:none;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
 }
 
 body{
@@ -93,8 +99,8 @@ h6,
 }
 
 .btn {
-    font-size: 17px;
-    padding: 7px 20px;
+    /*font-size: 17px;
+    padding: 7px 20px;*/
     -ms-border-radius: 9px;
     border-radius: 9px;
 }
@@ -110,7 +116,7 @@ h6,
     margin-bottom: 30px;
 }
 
-.gigs > li > date{
+.gigs > li .date {
     background: red;
     color: white;
     text-align: center;
@@ -126,17 +132,17 @@ h6,
     padding: 2px 6px;
 } 
 
-.gigs > li .date .day {
-    background: #f7f7f7;
-    color: #333;
-    font-size: 20px;
-    padding: 6px 12px;
-}
+    .gigs > li .date .day {
+        background: #f7f7f7;
+        color: #333;
+        font-size: 20px;
+        padding: 6px 12px;
+    }
 
 .gigs > li .details{
     position: absolute;
     top: 0px;
-    left: 50px;
+    left: 70px;
 }
 
     .gigs > li .details .artist{
