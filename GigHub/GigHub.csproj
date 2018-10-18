@@ -221,6 +221,10 @@
     <Compile Include="Migrations\201810161218204_AdicionandoChaveEstrangeiraEmGig.Designer.cs">
       <DependentUpon>201810161218204_AdicionandoChaveEstrangeiraEmGig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810181136053_AdicionandoNameNoUsuario.cs" />
+    <Compile Include="Migrations\201810181136053_AdicionandoNameNoUsuario.Designer.cs">
+      <DependentUpon>201810181136053_AdicionandoNameNoUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -228,6 +232,7 @@
     <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="ViewModels\RegisterViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
@@ -326,6 +331,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810161218204_AdicionandoChaveEstrangeiraEmGig.resx">
       <DependentUpon>201810161218204_AdicionandoChaveEstrangeiraEmGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810181136053_AdicionandoNameNoUsuario.resx">
+      <DependentUpon>201810181136053_AdicionandoNameNoUsuario.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
